@@ -1,8 +1,5 @@
 <?php
 
-// echo 'Requested URL = "' . $_SERVER['QUERY_STRING'] . '"';
-// require '../App/Controllers/Posts.php';
-// require '../Core/Router.php';
 
 /**
  *  Autoloader
@@ -18,7 +15,7 @@ spl_autoload_register(function ($class) {
 
 
 $router = new Core\Router();
-//echo get_class($router);
+
 // Routing table
 $router->add('', ['controller' => 'Home', 'action'=> 'index']);
 $router->add('posts', ['controller' => 'Posts', 'action'=> 'index']);
@@ -27,12 +24,7 @@ $router->add('{controller}/{action}');
 $router->add('{controller}/{id:\d+}/{action}');
 $router->add('admin/{action}/{controller}');
 
-/*
-echo '<pre>';
-// var_dump($router->getRoutes());
-echo htmlspecialchars(print_r($router->getRoutes(), true));
-echo '</pre>';
-*/
+
 $url = $_SERVER['QUERY_STRING'];
 
 if($router->match($url)){
