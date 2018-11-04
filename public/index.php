@@ -7,9 +7,14 @@ $router = new Router();
 // Routing table
 $router->add('', ['controller' => 'Home', 'action'=> 'index']);
 $router->add('posts', ['controller' => 'Posts', 'action'=> 'index']);
-$router->add('posts/new', ['controller' => 'Posts', 'action'=> 'new']);
-// echo '<pre>';
+// $router->add('posts/new', ['controller' => 'Posts', 'action'=> 'new']);
+$router->add('{controller}/{action}');
+$router->add('admin/{action}/{controller}');
+
+echo '<pre>';
 // var_dump($router->getRoutes());
+echo htmlspecialchars(print_r($router->getRoutes(), true));
+echo '</pre>';
 
 $url = $_SERVER['QUERY_STRING'];
 
@@ -20,3 +25,4 @@ if($router->match($url)){
 } else {
   echo "No route found for URL '$url'";
 }
+
