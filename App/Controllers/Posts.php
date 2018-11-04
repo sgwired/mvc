@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Controllers;
+
 class Posts
 {
     public function __construct()
