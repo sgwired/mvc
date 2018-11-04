@@ -2,22 +2,25 @@
 
 namespace App\Controllers;
 
+use \Core\View;
+
 class Home extends \Core\Controller
 {
-    public function indexAction()
-    {
-        echo "Hello from the Home Controller index action";
-    }
 
     protected function before()
     {
-        echo " (before)";
-        return false;
+        // echo " (before)";
+        // return false;
     }
     
     protected function after()
     {
-        echo " (after)";
+        // echo " (after)";
+    }
+
+    public function indexAction()
+    {
+        View::render('Home/index.php');
     }
 
   
