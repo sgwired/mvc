@@ -25,14 +25,14 @@ $router->add('{controller}/{id:\d+}/{action}');
 $router->add('admin/{action}/{controller}');
 
 
-$url = $_SERVER['QUERY_STRING'];
+// $url = $_SERVER['QUERY_STRING'];
 
-if($router->match($url)){
-  echo '<pre>';
-  var_dump($router->getParams());
-  echo '</pre>';
-} else {
-  echo "No route found for URL '$url'";
-}
+// if($router->match($url)){
+//   echo '<pre>';
+//   var_dump($router->getParams());
+//   echo '</pre>';
+// } else {
+//   echo "No route found for URL '$url'";
+// }
 
 $router->dispatch($_SERVER['QUERY_STRING']);
