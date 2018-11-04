@@ -8,6 +8,11 @@
 </head>
 <body>
     <h1>Welcome</h1>
-    <p>Hello from the view!</p>
+    <p>Hello <?php echo htmlspecialchars($name); ?></p>
+    <ul>
+        <?php foreach ($cars as $car): ?>
+            <li><?php echo htmlspecialchars($car); ?></li>
+<?php endforeach; ?>
+    </ul>
 </body>
 </html>
