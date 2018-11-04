@@ -4,6 +4,11 @@ class Router
   protected $routes = [];
   protected $params = [];
 
+  /**
+   * Add route to virtual routing table
+   * @param = string $route
+   * @param = array $params  controller action id in any order
+   */
   public function add($route, $params = [])
   {
     // convert route to regex and git rid of forward slashes
@@ -11,6 +16,9 @@ class Router
 
     // Convert variables {Controller}
     $route = preg_replace('/\{([a-z]+)\}/', '(?P<\1>[a-z-]+)', $route);
+
+    // Convert varialbles looking for id
+    $route = preg_replace('/\{([a-z]+):([^\}]+)\}/', '(?P<\1>\2)', $route);
 
     // Add start and end delimeters and case insensitive 
     $route = '/^' . $route . '$/i';
