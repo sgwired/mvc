@@ -48,4 +48,8 @@ abstract class Controller
     /**
      *  After Middleware (filter) - called after action method
      */
+     protected function after()
+     {
+
+     }
 }
