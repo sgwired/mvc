@@ -1,6 +1,7 @@
 <?php
 
 // echo 'Requested URL = "' . $_SERVER['QUERY_STRING'] . '"';
+require '../App/Controllers/Posts.php';
 require '../Core/Router.php';
 $router = new Router();
 //echo get_class($router);
@@ -12,11 +13,12 @@ $router->add('{controller}/{action}');
 $router->add('{controller}/{id:\d+}/{action}');
 $router->add('admin/{action}/{controller}');
 
+/*
 echo '<pre>';
 // var_dump($router->getRoutes());
 echo htmlspecialchars(print_r($router->getRoutes(), true));
 echo '</pre>';
-
+*/
 $url = $_SERVER['QUERY_STRING'];
 
 if($router->match($url)){
@@ -27,3 +29,4 @@ if($router->match($url)){
   echo "No route found for URL '$url'";
 }
 
+$router->dispatch($_SERVER['QUERY_STRING']);
