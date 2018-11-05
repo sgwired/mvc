@@ -6,3 +6,144 @@ Thrown in '/usr/local/var/www/Core/Router.php' on line 91
 Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
 #1 {main}
 Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:04:22 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('products/')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:04:22 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:11:15 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('products/')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:11:15 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:11:29 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:11:31 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:11:31 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:12:37 UTC] Uncaught exception: 'Twig_Error_Loader' with message 'Unable to find template "Home/indessx.html" (looked into: /usr/local/var/www/App/Views).'
+Stack trace: #0 /usr/local/var/www/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('Home/indessx.ht...')
+#1 /usr/local/var/www/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('Home/indessx.ht...')
+#2 /usr/local/var/www/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('Home/indessx.ht...')
+#3 /usr/local/var/www/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('Home/indessx.ht...')
+#4 /usr/local/var/www/Core/View.php(30): Twig_Environment->render('Home/indessx.ht...', Array)
+#5 /usr/local/var/www/App/Controllers/Home.php(28): Core\View::renderTemplate('Home/indessx.ht...', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /usr/local/var/www/Core/Controller.php(32): call_user_func_array(Array, Array)
+#8 /usr/local/var/www/Core/Router.php(81): Core\Controller->__call('index', Array)
+#9 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('')
+#10 {main}
+Thrown in '/usr/local/var/www/vendor/twig/twig/lib/Twig/Loader/Filesystem.php' on line 232
+[05-Nov-2018 00:12:37 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:12:55 UTC] Uncaught exception: 'Twig_Error_Loader' with message 'Unable to find template "Home/indessx.html" (looked into: /usr/local/var/www/App/Views).'
+Stack trace: #0 /usr/local/var/www/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('Home/indessx.ht...')
+#1 /usr/local/var/www/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('Home/indessx.ht...')
+#2 /usr/local/var/www/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('Home/indessx.ht...')
+#3 /usr/local/var/www/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('Home/indessx.ht...')
+#4 /usr/local/var/www/Core/View.php(30): Twig_Environment->render('Home/indessx.ht...', Array)
+#5 /usr/local/var/www/App/Controllers/Home.php(28): Core\View::renderTemplate('Home/indessx.ht...', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /usr/local/var/www/Core/Controller.php(32): call_user_func_array(Array, Array)
+#8 /usr/local/var/www/Core/Router.php(81): Core\Controller->__call('index', Array)
+#9 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('')
+#10 {main}
+Thrown in '/usr/local/var/www/vendor/twig/twig/lib/Twig/Loader/Filesystem.php' on line 232
+[05-Nov-2018 00:12:55 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:13:02 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:13:06 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('products/')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:13:06 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:18:56 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('products/')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:18:56 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:19:04 UTC] Uncaught exception: 'Twig_Error_Loader' with message 'Unable to find template "Home/indessx.html" (looked into: /usr/local/var/www/App/Views).'
+Stack trace: #0 /usr/local/var/www/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('Home/indessx.ht...')
+#1 /usr/local/var/www/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('Home/indessx.ht...')
+#2 /usr/local/var/www/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('Home/indessx.ht...')
+#3 /usr/local/var/www/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('Home/indessx.ht...')
+#4 /usr/local/var/www/Core/View.php(30): Twig_Environment->render('Home/indessx.ht...', Array)
+#5 /usr/local/var/www/App/Controllers/Home.php(28): Core\View::renderTemplate('Home/indessx.ht...', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /usr/local/var/www/Core/Controller.php(32): call_user_func_array(Array, Array)
+#8 /usr/local/var/www/Core/Router.php(81): Core\Controller->__call('index', Array)
+#9 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('')
+#10 {main}
+Thrown in '/usr/local/var/www/vendor/twig/twig/lib/Twig/Loader/Filesystem.php' on line 232
+[05-Nov-2018 00:19:04 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:19:19 UTC] Uncaught exception: 'Twig_Error_Loader' with message 'Unable to find template "Home/indessx.html" (looked into: /usr/local/var/www/App/Views).'
+Stack trace: #0 /usr/local/var/www/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('Home/indessx.ht...')
+#1 /usr/local/var/www/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('Home/indessx.ht...')
+#2 /usr/local/var/www/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('Home/indessx.ht...')
+#3 /usr/local/var/www/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('Home/indessx.ht...')
+#4 /usr/local/var/www/Core/View.php(30): Twig_Environment->render('Home/indessx.ht...', Array)
+#5 /usr/local/var/www/App/Controllers/Home.php(28): Core\View::renderTemplate('Home/indessx.ht...', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /usr/local/var/www/Core/Controller.php(32): call_user_func_array(Array, Array)
+#8 /usr/local/var/www/Core/Router.php(81): Core\Controller->__call('index', Array)
+#9 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('')
+#10 {main}
+Thrown in '/usr/local/var/www/vendor/twig/twig/lib/Twig/Loader/Filesystem.php' on line 232
+[05-Nov-2018 00:19:19 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:19:44 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:19:45 UTC] Uncaught exception: 'Twig_Error_Loader' with message 'Unable to find template "Home/indessx.html" (looked into: /usr/local/var/www/App/Views).'
+Stack trace: #0 /usr/local/var/www/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('Home/indessx.ht...')
+#1 /usr/local/var/www/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('Home/indessx.ht...')
+#2 /usr/local/var/www/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('Home/indessx.ht...')
+#3 /usr/local/var/www/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('Home/indessx.ht...')
+#4 /usr/local/var/www/Core/View.php(30): Twig_Environment->render('Home/indessx.ht...', Array)
+#5 /usr/local/var/www/App/Controllers/Home.php(28): Core\View::renderTemplate('Home/indessx.ht...', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /usr/local/var/www/Core/Controller.php(32): call_user_func_array(Array, Array)
+#8 /usr/local/var/www/Core/Router.php(81): Core\Controller->__call('index', Array)
+#9 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('')
+#10 {main}
+Thrown in '/usr/local/var/www/vendor/twig/twig/lib/Twig/Loader/Filesystem.php' on line 232
+[05-Nov-2018 00:19:45 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:19:45 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
