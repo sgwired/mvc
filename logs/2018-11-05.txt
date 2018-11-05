@@ -1,0 +1,8 @@
+[05-Nov-2018 00:02:07 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('products/')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:02:07 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91

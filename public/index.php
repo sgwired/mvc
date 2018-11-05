@@ -11,7 +11,16 @@ require '../vendor/autoload.php';
  */
 Twig_Autoloader::register();
 
+/**
+ * Error and Exception handlers
+ */
+error_reporting(E_ALL);
+set_error_handler('Core\Error::errorHandler');
+set_exception_handler('Core\Error::exceptionHandler');
 
+/**
+ * Routing
+ */
 $router = new Core\Router();
 
 // Routing table
