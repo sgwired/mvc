@@ -13,7 +13,6 @@ class View
         if (is_readable($file)){
             require $file;
         } else {
-            // echo "The view $file not found";
             throw new \Exception("The view $file not found");
         }
     }

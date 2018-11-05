@@ -147,3 +147,40 @@ Thrown in '/usr/local/var/www/Core/Router.php' on line 91
 Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
 #1 {main}
 Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:33:13 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:33:14 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:33:15 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:33:16 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:33:55 UTC] Uncaught exception: 'Exception' with message 'Method indexAction in controller App\Controllers\Admin\Users cannot be called directly - remove the Action suffix to call this method'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('admin/users/ind...')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 83
+[05-Nov-2018 00:33:55 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:34:00 UTC] Uncaught exception: 'Exception' with message 'Method indeAction not found in controller App\Controllers\Admin\Users'
+Stack trace: #0 /usr/local/var/www/Core/Router.php(81): Core\Controller->__call('inde', Array)
+#1 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('admin/users/ind...')
+#2 {main}
+Thrown in '/usr/local/var/www/Core/Controller.php' on line 37
+[05-Nov-2018 00:34:00 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
+[05-Nov-2018 00:34:15 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /usr/local/var/www/public/index.php(45): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in '/usr/local/var/www/Core/Router.php' on line 91
