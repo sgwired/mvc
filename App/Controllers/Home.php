@@ -19,10 +19,12 @@ class Home extends \Core\Controller
 
     public function indexAction()
     {
-        View::renderTemplate('Home/index.html', [
-            'name' => 'Shelton',
-            'cars' => ['GMC', 'Prius', 'Model 3']
-        ]);
+//         View::renderTemplate('Home/index.html', [
+//             'name' => 'Shelton',
+//             'cars' => ['GMC', 'Prius', 'Model 3', 'Rivian RT']
+//         ]);
+
+        View::renderTemplate('Home/index.html');
     }
 
   

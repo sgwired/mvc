@@ -16,9 +16,9 @@ class Post extends \Core\Model
             $stmnt = $db->query(
                 "SELECT id, title, content FROM posts 
                   ORDER BY created_at");
-            $results = $stmnt->fetchAll(PDO::FETCH_ASSOC);
+            return  $stmnt->fetchAll(PDO::FETCH_ASSOC);
 
-            return $results;
+            
         } catch (PDOException $e) {
             echo $e->getMessage();
         }
