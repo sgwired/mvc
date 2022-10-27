@@ -33,7 +33,7 @@ class Signup extends \Core\Controller {
         if ($user->save()) {
             View::renderTemplate('Signup/success.html');
         } else {
-            var_dump($user->errors);
+            View::renderTemplate('Signup/new.html',[ 'user' => $user] );
         }
         
         
