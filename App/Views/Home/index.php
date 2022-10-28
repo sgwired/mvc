@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome</h1>
+    <h1>Welcome!</h1>
     <p>Hello <?php echo htmlspecialchars($name); ?></p>
     <ul>
         <?php foreach ($cars as $car): ?>

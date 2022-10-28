@@ -19,6 +19,12 @@ set_error_handler('Core\Error::errorHandler');
 set_exception_handler('Core\Error::exceptionHandler');
 
 /**
+ * Sessions
+ */
+session_start();
+
+
+/**
  * Routing
  */
 $router = new Core\Router();
@@ -27,6 +33,7 @@ $router = new Core\Router();
 $router->add('', ['controller' => 'Home', 'action'=> 'index']);
 $router->add('{controller}/{action}');
 $router->add('login', ['controller' => 'Login', 'action'=> 'new']); # so we can have /login route
+$router->add('logout', ['controller' => 'Login', 'action'=> 'destroy']); # so we can have /logout route
 
 // $router->add('{controller}/{id:\d+}/{action}');
 // $router->add('posts', ['controller' => 'Posts', 'action'=> 'index']);
