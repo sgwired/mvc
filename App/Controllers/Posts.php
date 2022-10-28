@@ -9,15 +9,25 @@ use App\Auth;
 
 class Posts extends  \Core\Controller
 {
+    /**
+     * Require the user to be authenticated before giving access to all methods in the controller
+     * 
+     * @return void
+     */
+    protected function before()
+    {
+        $this->requireLogin();
+    }
+    
+    /**
+     * Posts index
+     * 
+     * @return void
+     */
     public function indexAction()
     {
-        if(! Auth::isLoggedIn()) {
-            
-           Auth::rememberRequestedPage();
-            
-           $this->redirect('/login');
-        }
-        
+     
+           
         $posts = POST::getAll();
         
         View::renderTemplate('Posts/index.html', [
