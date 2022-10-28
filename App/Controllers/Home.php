@@ -3,26 +3,15 @@
 namespace App\Controllers;
 
 use \Core\View;
+use App\Auth;
 
 class Home extends \Core\Controller
 {
-
-    protected function before()
-    {
-
-    }
-    
-    protected function after()
-    {
-
-    }
-
+    /**
+     * Show the index page
+     */
     public function indexAction()
     {
-//         View::renderTemplate('Home/index.html', [
-//             'name' => 'Shelton',
-//             'cars' => ['GMC', 'Prius', 'Model 3', 'Rivian RT']
-//         ]);
 
         View::renderTemplate('Home/index.html');
     }

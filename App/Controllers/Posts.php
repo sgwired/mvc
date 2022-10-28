@@ -5,20 +5,11 @@ namespace App\Controllers;
 
 use \Core\View;
 use App\Models\Post;
-use App\Auth;
 
-class Posts extends  \Core\Controller
+
+class Posts extends  Authenticated
 {
-    /**
-     * Require the user to be authenticated before giving access to all methods in the controller
-     * 
-     * @return void
-     */
-    protected function before()
-    {
-        $this->requireLogin();
-    }
-    
+
     /**
      * Posts index
      * 
