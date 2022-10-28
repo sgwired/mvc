@@ -2,14 +2,24 @@
 
 namespace App\Controllers;
 
+
 use \Core\View;
 use App\Models\Post;
+use App\Auth;
 
 class Posts extends  \Core\Controller
 {
     public function indexAction()
     {
+        if(! Auth::isLoggedIn()) {
+            
+           Auth::rememberRequestedPage();
+            
+           $this->redirect('/login');
+        }
+        
         $posts = POST::getAll();
+        
         View::renderTemplate('Posts/index.html', [
             'posts' => $posts
         ]);

@@ -36,7 +36,7 @@ $router->add('login', ['controller' => 'Login', 'action'=> 'new']); # so we can 
 $router->add('logout', ['controller' => 'Login', 'action'=> 'destroy']); # so we can have /logout route
 
 // $router->add('{controller}/{id:\d+}/{action}');
-// $router->add('posts', ['controller' => 'Posts', 'action'=> 'index']);
+$router->add('posts', ['controller' => 'Posts', 'action'=> 'index']);
 // $router->add('admin/{controller}/{action}', ['namespace' => 'Admin']);
 
 $router->dispatch($_SERVER['QUERY_STRING']);
