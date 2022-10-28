@@ -2,3 +2,6 @@
 vendor/
 !vendor/autoload.php
 logs/*
+.buildpath
+.project
+org.eclipse.*
