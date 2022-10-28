@@ -17,6 +17,14 @@
        	 <a href="/signup/new">Sign up</a>
 	   {% endif %}
     </nav>
+    
+    {% for message in flash_messages %}
+    	<div>
+    	{{ message }}
+    	</div>
+    {% endfor %}
+    
+    
     {% block body %}
     {% endblock %}
     
